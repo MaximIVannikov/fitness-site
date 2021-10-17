@@ -136,23 +136,28 @@
                 transform: translateX(-100%);
                 margin-left: 0px;
             }
-            li{
-                position: relative;
-                font-weight: 300;
-                font-size: 14px;
-                line-height: 21px;
-                color: #555555;
-                margin-bottom: 20px;
-                &:before {
-                    content: '';
-                    position: absolute;
-                    height: 5px;
-                    width: 5px;
-                    background-color: $main-color;
-                    left: -14px;
-                    top: 7px;
+            ul{
+                margin: 0;
+                padding: 0;
+                li{
+                    position: relative;
+                    font-weight: 300;
+                    font-size: 14px;
+                    line-height: 21px;
+                    color: #555555;
+                    margin-bottom: 20px;
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        height: 5px;
+                        width: 5px;
+                        background-color: $main-color;
+                        left: -14px;
+                        top: 7px;
+                    }
                 }
             }
+            
         }
         &__back{
             position: absolute;
