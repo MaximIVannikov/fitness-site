@@ -123,6 +123,8 @@ toggleSlide('.catalog-item__back');
     return false;
   });
 
+  new WOW().init();
+
 });
 
 
